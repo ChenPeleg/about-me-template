@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1400" height="800" fill="#f6f8fa"/>
+  
+  <!-- Title -->
+  <text x="700" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#24292f">
+    How to Enable GitHub Pages
+  </text>
+  
+  <!-- Simulated GitHub UI Header -->
+  <g id="header">
+    <rect x="50" y="70" width="1300" height="50" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="70" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#57606a">Code</text>
+    <text x="140" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#57606a">Issues</text>
+    <text x="220" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#57606a">Pull requests</text>
+    <text x="350" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#57606a">Actions</text>
+    
+    <!-- Settings tab - highlighted -->
+    <rect x="1000" y="75" width="100" height="40" fill="#fff8c5" stroke="#ffd33d" stroke-width="2" rx="4"/>
+    <text x="1050" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle" fill="#24292f">⚙ Settings</text>
+    
+    <!-- Arrow pointing to Settings -->
+    <circle cx="1050" cy="60" r="15" fill="#cf222e" opacity="0.9"/>
+    <text x="1050" y="66" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+  </g>
+  
+  <!-- Main Content Area -->
+  <g id="main-content">
+    <!-- Left Sidebar -->
+    <rect x="50" y="140" width="350" height="600" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="70" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#57606a">⚙ General</text>
+    <text x="70" y="230" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#24292f">Access</text>
+    <text x="70" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#57606a">👥 Collaborators</text>
+    <text x="70" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#24292f">Code and automation</text>
+    <text x="70" y="350" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#57606a">🌿 Branches</text>
+    <text x="70" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#57606a">🏷 Tags</text>
+    <text x="70" y="410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#57606a">▶ Actions</text>
+    
+    <!-- Pages - highlighted -->
+    <rect x="60" y="580" width="320" height="35" fill="#fff8c5" stroke="#ffd33d" stroke-width="2" rx="4"/>
+    <text x="70" y="602" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" font-weight="600" fill="#24292f">📄 Pages</text>
+    
+    <!-- Arrow pointing to Pages -->
+    <circle cx="30" cy="597" r="15" fill="#cf222e" opacity="0.9"/>
+    <text x="30" y="603" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+  </g>
+  
+  <!-- Right Content Area -->
+  <g id="pages-content">
+    <rect x="420" y="140" width="930" height="600" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    
+    <!-- GitHub Pages Header -->
+    <text x="450" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" fill="#24292f">GitHub Pages</text>
+    <text x="450" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#57606a">
+      GitHub Pages is designed to host your personal, organization, or project pages
+    </text>
+    
+    <!-- Build and deployment section -->
+    <text x="450" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="600" fill="#24292f">Build and deployment</text>
+    
+    <!-- Source Label -->
+    <text x="450" y="300" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#24292f">Source</text>
+    
+    <!-- Dropdown - HIGHLIGHTED -->
+    <rect x="450" y="315" width="250" height="40" fill="#fff8c5" stroke="#ffd33d" stroke-width="3" rx="6"/>
+    <text x="465" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" fill="#24292f">GitHub Actions ▾</text>
+    
+    <!-- Arrow and annotation for dropdown -->
+    <circle cx="575" cy="290" r="18" fill="#cf222e" opacity="0.9"/>
+    <text x="575" y="297" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+    
+    <text x="750" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#cf222e">← SELECT "GitHub Actions"</text>
+    <text x="750" y="355" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="12" fill="#57606a">(NOT "Deploy from a branch")</text>
+    
+    <!-- Additional info box -->
+    <rect x="450" y="400" width="850" height="120" fill="#ddf4ff" stroke="#0969da" stroke-width="1" rx="6"/>
+    <text x="470" y="425" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#0969da">ℹ Important:</text>
+    <text x="470" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#24292f">This repository already has a GitHub Actions workflow configured</text>
+    <text x="470" y="472" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#24292f">(.github/workflows/deploy.yml) that will automatically deploy your</text>
+    <text x="470" y="494" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="13" fill="#24292f">site when you push to the main branch.</text>
+  </g>
+  
+  <!-- Instructions at bottom -->
+  <text x="700" y="770" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="12" text-anchor="middle" fill="#6e7781">
+    After selecting "GitHub Actions" as the source, your next push to main will deploy the site to https://YOUR_USERNAME.github.io/YOUR_REPO/
+  </text>
+</svg>
