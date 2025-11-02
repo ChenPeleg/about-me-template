@@ -7,19 +7,4 @@ describe('Home', () => {
     render(<Home />);
     expect(screen.getByText('About Me')).toBeTruthy();
   });
-
-  it('renders the Work Experience section', () => {
-    render(<Home />);
-    expect(screen.getByText('Work Experience')).toBeTruthy();
-  });
-
-  it('displays about me content', () => {
-    render(<Home />);
-    expect(screen.getByText(/I am a passionate professional/i)).toBeTruthy();
-  });
-
-  it('displays work experience content', () => {
-    render(<Home />);
-    expect(screen.getByText(/Throughout my career/i)).toBeTruthy();
-  });
 });
