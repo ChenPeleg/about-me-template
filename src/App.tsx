@@ -16,6 +16,9 @@ function App() {
           <li>
             <Link to="/contact-info" className="text-blue-600 hover:underline">Contact Info</Link>
           </li>
+          <li>
+            <Link to="/knowledge-base" className="text-blue-600 hover:underline">Knowledge Base</Link>
+          </li>
         </ul>
       </nav>
 
