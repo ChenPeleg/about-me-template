@@ -3,7 +3,7 @@ import { Outlet, Link } from 'react-router-dom'
 function App() {
   return (
     <div className="max-w-3xl mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-8">John Doe</h1>
+      <h1 className="text-4xl font-bold mb-8">Chen Peleg</h1>
       
       <nav className="mb-8">
         <ul className="flex gap-4">
