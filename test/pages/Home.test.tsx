@@ -3,8 +3,9 @@ import { render, screen } from '@testing-library/react';
 import Home from '../../src/pages/Home';
 
 describe('Home', () => {
-  it('renders the About Me section', () => {
+  it('renders the main headings', () => {
     render(<Home />);
-    expect(screen.getByText('About Me')).toBeTruthy();
+    expect(screen.getByRole('heading', { name: /About Me/i })).toBeTruthy();
+    expect(screen.getByRole('heading', { name: /Work Experience/i })).toBeTruthy();
   });
 });
